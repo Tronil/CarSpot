@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <appID>0x66</appID>
+  <name>Car Mode Spotify</name>
+  <description>Car Mode Spotify Application</description>
+  <allowedProfileIDs>0</allowedProfileIDs>
+  <remotingInfo>
+    <protocolID>VNC</protocolID>
+  </remotingInfo>
+    <appInfo>
+    <appCategory>0x30001</appCategory>
+    <trustLevel>0x60</trustLevel>
+  </appInfo>
+  <displayInfo>
+    <contentCategory>0x10000</contentCategory>
+    <contentRules>0x0</contentRules>
+    <orientation>both</orientation>
+    <trustLevel>0x60</trustLevel>
+  </displayInfo>
+</app>

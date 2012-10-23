@@ -1,0 +1,7 @@
+#!/bin/sh
+set -e
+# Remove the cache and settings if removing or purging the package
+if [ "$1" = "remove" -o "$1" = "purge" ]; then
+  rm -fR /home/user/MyDocs/.carspot
+  rm -f /usr/share/themes/blanco/meegotouch/icons/carspot80.png
+fi

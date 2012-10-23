@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if [ -f /usr/share/icons/hicolor/80x80/apps/carspot80.png ]; then
+    cp /usr/share/icons/hicolor/80x80/apps/carspot80.png /usr/share/themes/blanco/meegotouch/icons/
+fi
+

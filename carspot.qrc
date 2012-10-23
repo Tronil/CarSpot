@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>localization/carspot_en.qm</file>
+        <file>images/icon-l-spotify-loading1.png</file>
+        <file>images/icon-l-spotify-loading2.png</file>
+        <file>images/icon-l-spotify-loading3.png</file>
+        <file>images/icon-l-spotify-loading4.png</file>
+        <file>images/icon-l-spotify-loading5.png</file>
+        <file>images/icon-l-spotify-loading6.png</file>
+        <file>images/icon-l-spotify-loading7.png</file>
+        <file>images/icon-l-spotify-loading8.png</file>
+        <file alias="SpotifyAssets.svg">images/SpotifyAssets.svg</file>
+    </qresource>
+</RCC>

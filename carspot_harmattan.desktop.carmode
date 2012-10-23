@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=CarSpot
+Icon=carspot80
+OnlyShowIn=X-MeeGo;
+Exec=/opt/carspot/bin/carspot
+X-MeeGo-Logical-Id=qtn_drive_drive_name
+X-MeeGo-Translation-Catalog=drive
+X-Car-Mode=true;
+X-Car-Mode-Id=1;
+# Exec=/usr/bin/invoker --type=d --type=m /usr/bin/drive-qml
