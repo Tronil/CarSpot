@@ -1,3 +1,9 @@
+carspot (1.1) stable; urgency=low
+
+  * Added link to Spotify Privacy Policy on the login screen
+
+ -- Nilsson Troels <nilsson.troels@gmail.com>  Wed, 14 Nov 2012 17:30:00 +0200
+
 carspot (1.0) stable; urgency=low
 
   * Initial release

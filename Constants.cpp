@@ -44,7 +44,7 @@ const QString Constants::DimmedTextColor = QLatin1String("#979797");
 const QString Constants::StandardFont = QLatin1String("Nokia Sans");
 const int Constants::NaviButtonWidth = 85;
 const int Constants::StandardMargin = 20;
-const QString Constants::Version = QLatin1String("1.0");
+const QString Constants::Version = QLatin1String("1.1");
 
 // Playing screen
 const int Constants::ControlsHeight = 130;

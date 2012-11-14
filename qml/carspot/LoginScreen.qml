@@ -49,7 +49,9 @@ CarModePage
     {
         id: column
 
-        anchors.fill: parent
+        anchors.top: parent.top
+        anchors.left: parent.left
+        anchors.right: parent.right
 
         spacing: Constants.StandardMargin
 
@@ -140,7 +142,27 @@ CarModePage
                                          buttonHeight: 100
                                          buttonWidth: 430 }
         }
+    }
 
+    // Spotify privacy policy
+    Label
+    {
+        id: privacy_policy
+
+        anchors.topMargin: 2*Constants.StandardMargin
+        anchors.top: column.bottom
+        anchors.left: parent.left
+        anchors.right: parent.right
+        anchors.margins: Constants.StandardMargin
+
+        color: "white"
+        font.pixelSize: 38
+        wrapMode: Text.WordWrap
+
+        //% "QTN_PRIVACY_POLICY"
+        text: "<style type=text/css> a {text-decoration: underline; color:"+Constants.SpotifyGreen+"} </style>" + qsTrId("QTN_PRIVACY_POLICY")
+
+        onLinkActivated: Qt.openUrlExternally(link)
     }
 
     WaitAnimation
